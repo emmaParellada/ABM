@@ -64,23 +64,6 @@ function mostrarEmpleados() {
         divEmpleados.appendChild(hr);  
     }
 }
-
-/*
-function validarFormulario(e){
-    e.preventDefault();// cancela el evento si es cancelable
-
-    if(txtNombre.value != "" && txtPuesto.value != ""){
-        objEmpleado.id = Date.now();
-        objEmpleado.nombre = txtNombre.value;
-        objEmpleado.puesto = txtPuesto.value;
-        console.log(objEmpleado);
-        agregarEmpleado();
-    }else{
-        alert("LLena correctamente los datos");
-        return;
-    }
-}
-*/
 function validarFormulario(e)
 {
     e.preventDefault();
